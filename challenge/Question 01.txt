@@ -1,0 +1,65 @@
+Scenario:
+You're developing a smart assistant that can answer customer questions based on a list of FAQs.
+
+
+ Your Task:
+Create a dictionary named faq_data where:
+
+Keys = FAQ questions
+
+Values = FAQ answers
+
+Write a function get_faq_answer(user_query: str) -> str
+that returns the best possible answer from your faq_data, based on how similar the user's query is to any FAQ question.
+
+If no match is good enough, return:
+"Sorry, I couldn’t find a suitable answer to your question."
+
+
+Sample Input & Output:
+Example 1:
+get_faq_answer("Do you offer delivery?")
+Output:
+
+
+Yes, we provide delivery service for all orders above 500 BDT.
+
+Example 2:
+get_faq_answer("Where are you located?")
+Output:
+
+
+We are located at 123 Main Road, Dhaka.
+
+Example 3:
+get_faq_answer("Can I return a product?")
+Output:
+
+You can return a product within 7 days of delivery.
+
+Example 4:
+get_faq_answer("Do you sell mobile phones?")
+Output:
+
+
+Sorry, I couldn’t find a suitable answer to your question.
+
+Note: The above sample is just an example you can develop your own FAQ chatbot. 
+
+Hints:
+First design your own meaningful faq_data dictionary based on the sample inputs/outputs.
+
+Use a text similarity technique (TF-IDF + cosine similarity is recommended).
+
+Your model should work even if the user query doesn't exactly match the FAQ wording.
+
+Use appropriate thresholds to determine when a match is not good enough.
+
+What We’re Testing:
+Your ability to build a meaningful FAQ knowledge base.
+
+Your understanding of vectorization and similarity search.
+
+Your edge case handling and code clarity.
+
+Submission: share github link and read me where you each line of your code properly. Dont use chatgpt for coding. Use google or other things.

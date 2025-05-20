@@ -1,0 +1,19 @@
+Scenario: AI Chatbot for Customer Service
+Context:
+You are developing an AI-powered chatbot for a large e-commerce website. Customers often ask questions like:
+
+“Hey, can u plz tell me where’s my order??”
+
+“i didn’t receive my parcel yet!!!!”
+
+“Whr’s my ordr 😡😡”
+
+“delivery late af... i want refund now”
+
+
+
+Question:
+Design a preprocessing pipeline that will normalize these kinds of user inputs before feeding them into an intent classification model. What specific steps would you take to clean and standardize the text? Your solution should handle abbreviations, slang, emojis, misspellings, and emotions or other tex preprocessing techniques.
+🔸 Bonus: How would you preserve emotional intensity (like frustration) in preprocessing without losing model accuracy?
+
+Submission: share github link and read me where you each line of your code properly. Dont use chatgpt for coding. Use google or other things.
